@@ -17,7 +17,7 @@
     display: flex;
     flex-flow: row wrap;
     /* flex */
-    width: calc(40px * 10);
+
     margin-left: auto;
     margin-right: auto;
 }
@@ -27,8 +27,8 @@
     justify-content: center;
     align-items: center;
     /* flex */
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     border: 1px solid black;
 }
 

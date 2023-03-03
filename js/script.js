@@ -45,7 +45,7 @@ x creo variabile numero caselle per riga
     °F2: assegno alla variabile numero caselle per riga il valore di 10;
 
 x uso questa variabile nel ciclo che uso per generare le caselle per determinare il numero
-- setto la width del contenitore della griglia con la formula calc(50px * numero caselle per riga);
+x setto la width del contenitore della griglia con la formula calc(50px * numero caselle per riga);
 
 */
 
@@ -100,7 +100,7 @@ btnGenerateEl.addEventListener('click', function(){
     }
     
     // - setto la width del contenitore della griglia con la formula calc(50px * numero caselle per riga);
-    gridContainerEl.style.width = `calc(50px * ${casellePerRiga})`;
+    gridContainerEl.style.width = `calc(80px * ${casellePerRiga})`;
 
     while(i<caselleTot){
         // memorizzo una variabile contatore

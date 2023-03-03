@@ -8,15 +8,21 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
-    <button id="generate-grid">Play</button>
-
-    <label for="mode">Difficoltà:</label>
-    <select name="mode" id="mode">
-        <option value="easy">Easy</option>
-        <option value="medium">Medium</option>
-        <option value="hard">Hard</option>
-    </select>
+    <div class="controls">
+        <div class="controls-left">
+            <img src="img/img.png" alt="logo">
+        </div>
+        <div class="controls-right">
+            <label for="mode">Difficoltà:</label>
+            <select name="mode" id="mode">
+                <option value="easy">Easy</option>
+                <option value="medium">Medium</option>
+                <option value="hard">Hard</option>
+            </select>
+            <button id="generate-grid" class="btn">Play</button>
+        </div>
+        
+    </div>
 
     <div class="container-centered">
         <div id="grid-container"></div>
